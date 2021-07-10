@@ -1,70 +1,130 @@
 {%load static%} {% static "images" as baseUrl%}
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Maps- Contact Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400"
+      rel="stylesheet"
+    />
+    <link href="{%static 'css/templatemo-style.css'%}" rel="stylesheet" />
+  </head>
+  <!--
 
-<head>
-  <title>simplestyle_banner</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-  <link rel="stylesheet" type="text/css" href="{%static 'css/style.css'%}" />
-</head>
+Simple House
 
-<body>
-  <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="home"></a>COMPANY <span class="logo_colour">NAME</span></a></h1>
-          <h2>COMPANY DESC</h2>
+https://templatemo.com/tm-539-simple-house
+
+-->
+  <body>
+    <div class="container">
+      <!-- Top box -->
+      <!-- Logo & Site Name -->
+      <div class="placeholder">
+        <div
+          class="parallax-window"
+          data-parallax="scroll"
+          data-image-src="img/simple-house-01.jpg"
+        >
+          <div class="tm-header">
+            <div class="row tm-header-inner">
+              <div class="col-md-2 col-4">
+                <img
+                  src="{%static 'img/company_logo.jpeg'%}"
+                  alt="Logo"
+                  class="tm-site-logo"
+                />
+              </div>
+              <nav class="col-md-6 col-12 tm-nav">
+                <ul class="tm-nav-ul">
+                  <li class="tm-nav-li">
+                    <a href="index.html" class="tm-nav-link">Home</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="about.html" class="tm-nav-link">About</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="contactus" class="tm-nav-link">Services</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="contact.html" class="tm-nav-link active"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li><a href="home">Home</a></li>
-          <li><a href="aboutus">About Us</a></li>
-          <li class="selected"><a href="contactus">Contact Us</a></li>
-        </ul>
-      </div>
-    </div>
-    <div id="content_header"></div>
-    <div id="site_content">
 
-      <div id="content">
-        <!-- insert the page content here -->
-        <h1>Contact Us</h1>
-        <div class="form_settings">
-          <p>
-            <span>Name</span><input class="contact" type="text" name="your_name" value="" />
-          </p>
-          <p>
-            <span>Email Address</span><input class="contact" type="text" name="your_email" value="" />
-          </p>
-          <p>
-            <span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="your_enquiry"></textarea>
-          </p>
-          <p style="padding-top: 15px">
-            <span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="submit" />
-          </p>
+      <main>
+        <header class="row tm-welcome-section">
+          <h2 class="col-12 text-center tm-section-title" style="color:#f28425">Contact Page</h2>
+        </header>
+		
+        <div class="row"> 			
+          <div align="center" class="col-md-4" >
+            <div class="tm-address-box">
+              <h4 class="tm-info-title tm-text-success" style="text-decoration: underline">Our Address</h4>
+              <address>
+                Bhagwati Plaza, Bulanala Chowk </br>Varanasi - 221001 </br></br>
+				Madanpura Road, Pandey Haweli </br>Varanasi - 221001	
+              </address>
+            </div>
+          </div>
+          <div align="center" class="col-md-4">
+            <div class="tm-address-box">
+              <h4 class="tm-info-title tm-text-success" style="text-decoration: underline">Call Us</h4>
+              <address>
+               		<p>Manoj Tripathi -  9953771709</p> </br>
+					<p>Santosh Pandey -  9532359765</p></br>
+					<p>Alok Singh     -  8299056773</p>
+              </address>
+            </div>
+          </div>
+          <div align="center" class="col-md-4">
+            <div class="tm-address-box">
+              <h4 class="tm-info-title tm-text-success" style="text-decoration: underline">Email Us</h4>
+              <address>
+                <p>contact@mapslogistic.com</p>
+              </address>
+            </div>
+          </div>
         </div>
+		
+		</div>
+      </main>
 
-      </div>
+      <footer class="tm-footer text-center">
+        <p>
+          Copyright &copy; 2020 Simple House | Design:
+          <a rel="nofollow" href="https://templatemo.com">TemplateMo</a>
+        </p>
+      </footer>
     </div>
-    <div id="content_footer"></div>
-    <div id="footer">
-      <p><a href="home">Home</a> | <a href="aboutus">About Us</a> |
-        <a href="contactus">Contact Us</a>
-    </p>
-      <p>
-        Copyright &copy; simplestyle_banner |
-        <a href="http://validator.w3.org/check?uri=referer">HTML5</a> |
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> |
-        <a href="http://www.html5webtemplates.co.uk">HTML5 Web Templates</a>
-      </p>
-    </div>
-  </div>
-</body>
+    <script src="{%static 'js/jquery.min.js'%}"></script>
+    <script src="{%static 'js/parallax.min.js'%}"></script>
+    <script>
+      $(document).ready(function () {
+        var acc = document.getElementsByClassName("accordion");
+        var i;
 
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+      });
+    </script>
+  </body>
 </html>
