@@ -11,6 +11,47 @@
       rel="stylesheet"
     />
     <link href="{%static 'css/templatemo-style.css'%}" rel="stylesheet" />
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: auto;
+      }
+      table.a {
+        table-layout: fixed;
+        margin-left: 200px;
+        float: left;
+      }
+
+      table.b {
+        table-layout: fixed;
+        margin-left: 50px;
+        float: left;
+      }
+
+      table.c {
+        table-layout: fixed;
+        margin-left: 50px;
+        float: left;
+      }
+
+      td {
+        border: 1px solid #09c;
+        text-align: left;
+        padding: 8px;
+      }
+
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        background-color: #09c;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
   </head>
   <!--
 
@@ -50,9 +91,7 @@ https://templatemo.com/tm-539-simple-house
                     <a href="services" class="tm-nav-link active">Services</a>
                   </li>
                   <li class="tm-nav-li">
-                    <a href="contactus" class="tm-nav-link "
-                      >Contact</a
-                    >
+                    <a href="contactus" class="tm-nav-link">Contact</a>
                   </li>
                 </ul>
               </nav>
@@ -63,40 +102,310 @@ https://templatemo.com/tm-539-simple-house
 
       <main>
         <header class="row tm-welcome-section">
-          <h2 class="col-12 text-center tm-section-title" style="color:#f28425">Services Page</h2>
+          <h2
+            class="col-12 text-center tm-section-title"
+            style="color: #f28425"
+          >
+            Services Page
+          </h2>
         </header>
-		
-        <div class="row"> 			
-          <div align="center" class="col-md-4" >
-            <div class="tm-address-box">
-              <h4 class="tm-info-title tm-text-success" style="text-decoration: underline">Our Address</h4>
-              <address>
-                Bhagwati Plaza, Bulanala Chowk </br>Varanasi - 221001 </br></br>
-				Madanpura Road, Pandey Haweli </br>Varanasi - 221001	
-              </address>
-            </div>
-          </div>
-          <div align="center" class="col-md-4">
-            <div class="tm-address-box">
-              <h4 class="tm-info-title tm-text-success" style="text-decoration: underline">Call Us</h4>
-              <address>
-               		<p>Manoj Tripathi -  9953771709</p> </br>
-					<p>Santosh Pandey -  9532359765</p></br>
-					<p>Alok Singh     -  8299056773</p>
-              </address>
-            </div>
-          </div>
-          <div align="center" class="col-md-4">
-            <div class="tm-address-box">
-              <h4 class="tm-info-title tm-text-success" style="text-decoration: underline">Email Us</h4>
-              <address>
-                <p>contact@mapslogistic.com</p>
-              </address>
-            </div>
-          </div>
+
+        <div style="overflow: auto">
+          <table class="a">
+            <tr>
+              <th>Sr No.</th>
+              <th>Station</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>CUTTACK</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>JAGATPUR</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>MANGULI</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>BHUBANESWAR</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>ADASPUR</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>TRINATHA BAZAR</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>ASTARANGA</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>KAKATPUR</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>JAGATSINGHPUR</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>NIALI</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>PARADEEP</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>KUJANGA</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>KENDRAPADA</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>PATTAMUNDAI</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>RAJKANIKA</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>AALI</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>CHANDABALI</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>TIHIDI</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>BHADRAK</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>BASUDEVPUR</td>
+            </tr>
+            <tr>
+              <td>21</td>
+              <td>GHANTESWAR</td>
+            </tr>
+            <tr>
+              <td>22</td>
+              <td>SORO</td>
+            </tr>
+            <tr>
+              <td>23</td>
+              <td>BALASORE</td>
+            </tr>
+          </table>
+          <table class="b">
+            <tr>
+              <th>Sr No.</th>
+              <th>Station</th>
+            </tr>
+            <tr>
+              <td>24</td>
+              <td>CUTTACK</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>JAGATPUR</td>
+            </tr>
+            <tr>
+              <td>26</td>
+              <td>MANGULI</td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td>BHUBANESWAR</td>
+            </tr>
+            <tr>
+              <td>28</td>
+              <td>ADASPUR</td>
+            </tr>
+            <tr>
+              <td>29</td>
+              <td>TRINATHA BAZAR</td>
+            </tr>
+            <tr>
+              <td>30</td>
+              <td>ASTARANGA</td>
+            </tr>
+            <tr>
+              <td>31</td>
+              <td>KAKATPUR</td>
+            </tr>
+            <tr>
+              <td>32</td>
+              <td>JAGATSINGHPUR</td>
+            </tr>
+            <tr>
+              <td>33</td>
+              <td>NIALI</td>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td>PARADEEP</td>
+            </tr>
+            <tr>
+              <td>35</td>
+              <td>KUJANGA</td>
+            </tr>
+            <tr>
+              <td>36</td>
+              <td>KENDRAPADA</td>
+            </tr>
+            <tr>
+              <td>37</td>
+              <td>PATTAMUNDAI</td>
+            </tr>
+            <tr>
+              <td>38</td>
+              <td>RAJKANIKA</td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td>AALI</td>
+            </tr>
+            <tr>
+              <td>40</td>
+              <td>CHANDABALI</td>
+            </tr>
+            <tr>
+              <td>41</td>
+              <td>TIHIDI</td>
+            </tr>
+            <tr>
+              <td>42</td>
+              <td>BHADRAK</td>
+            </tr>
+            <tr>
+              <td>43</td>
+              <td>BASUDEVPUR</td>
+            </tr>
+            <tr>
+              <td>44</td>
+              <td>GHANTESWAR</td>
+            </tr>
+            <tr>
+              <td>45</td>
+              <td>SORO</td>
+            </tr>
+            <tr>
+              <td>46</td>
+              <td>BALASORE</td>
+            </tr>
+          </table>
+          <table class="c">
+            <tr>
+              <th>Sr No.</th>
+              <th>Station</th>
+            </tr>
+            <tr>
+              <td>47</td>
+              <td>CUTTACK</td>
+            </tr>
+            <tr>
+              <td>48</td>
+              <td>JAGATPUR</td>
+            </tr>
+            <tr>
+              <td>49</td>
+              <td>MANGULI</td>
+            </tr>
+            <tr>
+              <td>50</td>
+              <td>BHUBANESWAR</td>
+            </tr>
+            <tr>
+              <td>51</td>
+              <td>ADASPUR</td>
+            </tr>
+            <tr>
+              <td>52</td>
+              <td>TRINATHA BAZAR</td>
+            </tr>
+            <tr>
+              <td>53</td>
+              <td>ASTARANGA</td>
+            </tr>
+            <tr>
+              <td>54</td>
+              <td>KAKATPUR</td>
+            </tr>
+            <tr>
+              <td>55</td>
+              <td>JAGATSINGHPUR</td>
+            </tr>
+            <tr>
+              <td>56</td>
+              <td>NIALI</td>
+            </tr>
+            <tr>
+              <td>57</td>
+              <td>PARADEEP</td>
+            </tr>
+            <tr>
+              <td>58</td>
+              <td>KUJANGA</td>
+            </tr>
+            <tr>
+              <td>59</td>
+              <td>KENDRAPADA</td>
+            </tr>
+            <tr>
+              <td>60</td>
+              <td>PATTAMUNDAI</td>
+            </tr>
+            <tr>
+              <td>61</td>
+              <td>RAJKANIKA</td>
+            </tr>
+            <tr>
+              <td>62</td>
+              <td>AALI</td>
+            </tr>
+            <tr>
+              <td>63</td>
+              <td>CHANDABALI</td>
+            </tr>
+            <tr>
+              <td>64</td>
+              <td>TIHIDI</td>
+            </tr>
+            <tr>
+              <td>65</td>
+              <td>BHADRAK</td>
+            </tr>
+            <tr>
+              <td>66</td>
+              <td>BASUDEVPUR</td>
+            </tr>
+            <tr>
+              <td>67</td>
+              <td>GHANTESWAR</td>
+            </tr>
+            <tr>
+              <td>68</td>
+              <td>SORO</td>
+            </tr>
+            <tr>
+              <td>69</td>
+              <td>BALASORE</td>
+            </tr>
+          </table>
         </div>
-		
-		</div>
       </main>
 
       <footer class="tm-footer text-center">
